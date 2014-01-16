@@ -15,6 +15,11 @@ It will output an image to the output specified only if a face is found
 
 It will also return status code -1 for failure and 0 for success
 
+To build on Ubuntu Linux you need: 
+
+sudo apt-get install libcv-dev libopencv-dev
+
+
 ````
 Usage: facefinder input output [options]
 Options:
