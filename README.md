@@ -1,5 +1,8 @@
 # FaceFinder
 
+
+<img src="https://raw.github.com/ieee8023/FaceFinder/master/joe-found.png"/>
+
 Based off FaceTracker:
 FaceTracker is a library for deformable face tracking written in C++ using OpenCV 2, authored by [Jason Saragih](http://jsaragih.org/) and maintained by [Kyle McDonald](http://kylemcdonald.net/).
 
