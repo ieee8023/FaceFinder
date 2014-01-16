@@ -5,8 +5,9 @@ OPENCV_PATH=/usr/local
 CC=
 CXX=g++
 
+
 # Flags
-ARCH_FLAGS=-arch x86_64
+ARCH_FLAGS=
 CFLAGS=-Wextra -Wall -pedantic-errors $(ARCH_FLAGS) -O3 -Wno-long-long
 LDFLAGS=$(ARCH_FLAGS)
 DEFINES=
@@ -48,7 +49,7 @@ all: facefinder
 -include $(DEPENDENCY_FILES)
 
 facefinder: $(ALL_OBJECTS)
-	$(CXX) $(LDFLAGS) $(LIBRARIES) -o $@ $(ALL_OBJECTS)
+	$(CXX) $(LDFLAGS) -o $@ $(ALL_OBJECTS) $(LIBRARIES)
 
 .PHONY: clean
 clean:
