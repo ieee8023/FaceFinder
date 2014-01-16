@@ -16,7 +16,7 @@ It will output an image to the output specified only if a face is found
 It will also return status code -1 for failure and 0 for success
 
 ````
-Usage: FaceFinder input output [options]
+Usage: facefinder input output [options]
 Options:
 -m <string> : Tracker model (default: model/face2.tracker)
 -c <string> : Connectivity (default: model/face.con)
