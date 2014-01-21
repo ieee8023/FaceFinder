@@ -6,7 +6,11 @@
 Based off FaceTracker:
 FaceTracker is a library for deformable face tracking written in C++ using OpenCV 2, authored by [Jason Saragih](http://jsaragih.org/) and maintained by [Kyle McDonald](http://kylemcdonald.net/).
 
-This project is designed to be build inside the Eclipse CDT. You can just import this project and then set your opencv path
+## Changes from `FaceTracker`:
+
++Compiles for Linux (Ubuntu) with makefile
++Also setup config files for the Eclipse CDT. You can just import this project and then set your opencv path
++setup to batch process images for faces
 
 
 ## `FaceFinder` Usage
